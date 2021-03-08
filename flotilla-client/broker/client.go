@@ -5,9 +5,10 @@ import (
 	"errors"
 	"fmt"
 	"time"
-	"nanomsg.org/go-mangos"
+
 	"github.com/go-mangos/mangos/protocol/req"
 	"github.com/go-mangos/mangos/transport/tcp"
+	"nanomsg.org/go-mangos"
 )
 
 type operation string

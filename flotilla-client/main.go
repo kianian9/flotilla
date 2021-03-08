@@ -31,11 +31,9 @@ var brokers = []string{
 	"beanstalkd",
 	"nats",
 	"kafka",
-	"kestrel",
 	"activemq",
 	"rabbitmq",
 	"nsq",
-	"pubsub",
 }
 
 func main() {
