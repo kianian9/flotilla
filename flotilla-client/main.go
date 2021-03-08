@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/kianian9/flotilla/flotilla-client/broker"
 	"github.com/olekukonko/tablewriter"
-	"github.com/tylertreat/Flotilla/flotilla-client/broker"
 )
 
 const (
@@ -31,11 +31,9 @@ var brokers = []string{
 	"beanstalkd",
 	"nats",
 	"kafka",
-	"kestrel",
 	"activemq",
 	"rabbitmq",
 	"nsq",
-	"pubsub",
 }
 
 func main() {
