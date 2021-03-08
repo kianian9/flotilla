@@ -8,8 +8,8 @@ import (
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/cloud"
-	"google.golang.org/cloud/pubsub"
+	"cloud.google.com/go"
+	"cloud.google.com/go/pubsub"
 )
 
 const topic = "test"

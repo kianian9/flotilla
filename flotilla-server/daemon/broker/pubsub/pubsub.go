@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 
 	"golang.org/x/net/context"
-	"google.golang.org/cloud/pubsub"
+	"cloud.google.com/go/pubsub"
 
 	"github.com/kianian9/flotilla/flotilla-server/daemon/broker"
 )
